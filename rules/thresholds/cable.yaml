@@ -1,0 +1,12 @@
+# 电缆技能包阈值（护层电流参照 DL/T 1253 相关条文）
+key: cable
+device_type: 电缆
+checks:
+  - measure_type: 护层电流
+    unit: A
+    upper: 5
+    fault_name: 护层电流异常
+  - measure_type: 温度
+    unit: ℃
+    upper: 85
+    fault_name: 接头温度过高

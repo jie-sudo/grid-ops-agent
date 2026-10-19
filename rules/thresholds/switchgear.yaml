@@ -1,0 +1,12 @@
+# 开关柜技能包阈值（局放阈值参照 Q/GDW 相关条文，温升为通用经验值）
+key: switchgear
+device_type: 开关柜
+checks:
+  - measure_type: 局放
+    unit: pC
+    upper: 100
+    fault_name: 局放超标
+  - measure_type: 温度
+    unit: ℃
+    upper: 85
+    fault_name: 温度过高

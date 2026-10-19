@@ -1,0 +1,16 @@
+# 变压器技能包阈值（参照 DL/T 596 及通用运行经验）
+key: transformer
+device_type: 变压器
+checks:
+  - measure_type: 温度
+    unit: ℃
+    upper: 85
+    fault_name: 油温过高
+  - measure_type: 油色谱
+    unit: μL/L
+    upper: 100
+    fault_name: 油色谱超标
+  - measure_type: 护层电流
+    unit: A
+    upper: 5
+    fault_name: 护层电流异常

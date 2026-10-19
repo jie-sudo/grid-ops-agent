@@ -1,0 +1,58 @@
+# 等级体系与映射（BR-001 ~ BR-006）
+# 依据：Q/GDW 745-2012《配电网设备缺陷分类标准》、DL/T 1685-2017《输变电设备状态评价导则》
+version: "1.0"
+
+# 缺陷三级（Q/GDW 745-2012）
+defect_levels:
+  一般:
+    definition: 设备本身及周围环境出现不正常情况，一般不威胁设备安全运行，可列入年、季检修计划
+  严重:
+    definition: 设备处于异常状态，可能发展为事故，但可继续运行，须加强监视并处理
+  危急:
+    definition: 严重威胁设备安全运行，不及时处理随时可能导致事故
+
+# 状态四态（DL/T 1685-2017）
+state_levels:
+  正常:
+    definition: 各状态量稳定且在警示值、注意值以内
+    disposal: 可正常运行，延长检修周期
+  注意:
+    definition: 状态量变化趋势接近标准限值但未超过
+    disposal: 加强监视、缩短试验周期
+  异常:
+    definition: 单项重要状态量接近或略微超过标准限值
+    disposal: 重点监视，适时停电检修
+  严重:
+    definition: 单项重要状态量严重超过标准限值
+    disposal: 尽快停电检修
+
+# 告警三级
+alarm_levels: [提示, 重要, 紧急]
+
+# BR-002 告警 → 缺陷（默认建议等级，最终由分级规则判定）
+alarm_to_defect:
+  提示: 一般
+  重要: 严重
+  紧急: 危急
+
+# BR-003 状态四态 → 缺陷
+state_to_defect:
+  正常: null
+  注意: 一般
+  异常: 严重
+  严重: 危急
+
+# BR-006 冲突裁决：取最高等级，禁止自动降级
+conflict_rule: highest
+
+# BR-005 等级 → 消缺时限
+level_to_deadline:
+  一般:
+    type: plan
+    label: 列入年/季检修计划
+  严重:
+    days: 30
+    label: 30 天内消除
+  危急:
+    hours: 24
+    label: 24 小时内消除

@@ -1,0 +1,2883 @@
+version: '1.0'
+source: Q/GDW 745-2012 配电网设备缺陷分类标准
+defects:
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 危急
+  defect: 水泥杆本体倾斜度（包括挠度）≥3%，50m以下高度铁塔塔身倾斜度≥2%、50m及以上高度铁塔塔身倾斜度≥1.5%，钢管杆倾斜度≥1%；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 危急
+  defect: 水泥杆杆身有纵向裂纹，横向裂纹宽度超过0.5mm或横向裂纹长度超过周长的1/3;
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 危急
+  defect: 水泥杆表面风化、露筋，角钢塔主材缺失，随时可能发生倒杆塔危险。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 严重
+  defect: 水泥杆本体倾斜度（包括挠度）2%~3%，50m以下高度铁塔塔身倾斜度在1.5%~2%之间、50m及以上高度铁塔塔身倾斜度在1%~1.5%之间；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 严重
+  defect: 水泥杆杆身横向裂纹宽度在0.4~0.5mm之间或横向裂纹长度为周长的1/6~1/3;
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 严重
+  defect: 杆塔镀锌层脱落、开裂，塔材严重锈蚀；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 严重
+  defect: 角钢塔承力部件缺失；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 严重
+  defect: 同杆低压线路与高压不同电源。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 一般
+  defect: 水泥杆本体倾斜度（包括挠度）1.5%～2%，50m以下高度铁塔塔身倾斜度在1%～1.5%之间、50m及以上高度铁塔塔身倾斜度在0.5%～1%之间；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 一般
+  defect: 水泥杆杆身横向裂纹宽度在0.25～0.4mm之间或横向裂纹长度为周长的1/10~1/6;
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 一般
+  defect: 杆塔镀锌层脱落、开裂，塔材中度锈蚀；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 一般
+  defect: 角钢塔一般斜材缺失；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 一般
+  defect: 低压同杆弱电线路未经批准搭挂；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 一般
+  defect: 道路边的杆塔防护设施设置不规范或应该设防护设施而未设置；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.1 杆塔本体
+  level: 一般
+  defect: 杆塔本体有异物。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.2 基础
+  level: 危急
+  defect: 水泥杆本体杆埋深不足标准要求的65%；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.2 基础
+  level: 危急
+  defect: 杆塔基础有沉降，沉降值≥25cm，引起钢管杆倾斜度≥1%。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.2 基础
+  level: 严重
+  defect: 水泥杆埋深不足标准要求的80%；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.2 基础
+  level: 严重
+  defect: 杆塔基础有沉降，15cm≤沉降值<25cm。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.2 基础
+  level: 一般
+  defect: 杆塔基础埋深不足标准要求的95%；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.2 基础
+  level: 一般
+  defect: 杆塔基础轻微沉降，5cm≤沉降值<15cm;
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.1 杆塔
+  part: 4.1.1.2 基础
+  level: 一般
+  defect: 杆塔保护设施损坏。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 危急
+  defect: 7股导线中2股、19股导线中5股、35~37股导线中7股损伤深度超过该股导线的1/2,钢芯铝绞线钢芯断1股者，绝缘导线线芯在同一截面内损伤面积超过线芯导电部分截面的17%;
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 危急
+  defect: 导线电气连接处实测温度>90℃或相间温差>40K；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 危急
+  defect: 导线交跨距离、水平距离和导线间电气距离不符合Q/GDW519—2010《配电网运行规程》要求；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 危急
+  defect: 导线上挂有大异物将会引起相间短路等故障。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 严重
+  defect: 导线弧垂不满足运行要求，实际弧垂达到设计值120%以上或过紧95%设计值以下；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 严重
+  defect: 7股导线中1股、19股导线中3~4股、35~37股导线中5~6股损伤深度超过该股导线的1/2；绝缘导线线芯在同一截面内损伤面积达到线芯导电部分截面的10%～17%；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 严重
+  defect: 导线连接处80℃<实测温度≤90℃或30K<相间温差≤40K；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 严重
+  defect: 导线有散股、灯笼现象，一耐张段出现3处及以上散股；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 严重
+  defect: 架空绝缘线绝缘层破损，一耐张段出现三至四处绝缘破损、脱落现象或出现大面积绝缘破损、脱落；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 严重
+  defect: 导线严重锈蚀。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 一般
+  defect: 导线弧垂不满足运行要求，实际弧垂在设计值的110%≤测量值≤120%；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 一般
+  defect: 19股导线中1~2股、35~37股导线中1~4股损伤深度超过该股导线的1/2；绝缘导线线芯在同一截面内损伤面积小于线芯导电部分截面的10%
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 一般
+  defect: 导线连接处75℃<实测温度≤80℃或10K<相间温差≤30K；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 一般
+  defect: 导线一耐张段出现散股、灯笼现象一处；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 一般
+  defect: 架空绝缘线绝缘层破损，一耐张段出现二处绝缘破损、脱落现象；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 一般
+  defect: 导线中度锈蚀；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 一般
+  defect: 温度过高退火；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 一般
+  defect: 绝缘护套脱落、损坏、开裂；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.2 导线
+  part: ''
+  level: 一般
+  defect: 导线有小异物不会影响安全运行。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: ''
+  level: 危急
+  defect: 表面有严重放电痕迹；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: ''
+  level: 危急
+  defect: 有裂缝，釉面剥落面积>100mm2；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: ''
+  level: 危急
+  defect: 固定不牢固，严重倾斜。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: ''
+  level: 严重
+  defect: 有明显放电；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: ''
+  level: 严重
+  defect: 釉面剥落面积≤100mm²；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: ''
+  level: 严重
+  defect: 合成绝缘子伞裙有裂纹；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: ''
+  level: 严重
+  defect: 固定不牢固，中度倾斜。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: ''
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: ''
+  level: 一般
+  defect: 固定不牢固，轻度倾斜。4.1.4铁件、金具
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.1 线夹
+  level: 危急
+  defect: 线夹电气连接处实测温度>90℃或相间温差>40K；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.1 线夹
+  level: 危急
+  defect: 线夹主件已有脱落等现象；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.1 线夹
+  level: 危急
+  defect: 金具的保险销子脱落、连接金具球头锈蚀严重、弹簧销脱出或生锈失效、挂环断裂；金具串钉移位、脱出、挂环断裂、变形。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.1 线夹
+  level: 严重
+  defect: 线夹电气连接处80℃<实测温度≤90℃或30K<相间温差≤40K；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.1 线夹
+  level: 严重
+  defect: 线夹有较大松动；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.1 线夹
+  level: 严重
+  defect: 线夹严重锈蚀（起皮和严重麻点，锈蚀面积超过1/2）。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.1 线夹
+  level: 一般
+  defect: 线夹电气连接处75℃<实测温度≤80℃或10K<相间温差≤30K；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.1 线夹
+  level: 一般
+  defect: 线夹连接不牢靠，略有松动；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.1 线夹
+  level: 一般
+  defect: 线夹有锈蚀；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.1 线夹
+  level: 一般
+  defect: 绝缘罩脱落。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.2 横担
+  level: 危急
+  defect: 横担主件（如抱箍、连铁、撑铁等）脱落；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.2 横担
+  level: 危急
+  defect: 横担弯曲、倾斜，严重变形。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.2 横担
+  level: 严重
+  defect: 横担有较大松动；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.2 横担
+  level: 严重
+  defect: 横担严重锈蚀（起皮和严重麻点，锈蚀面积超过1/2）；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.2 横担
+  level: 严重
+  defect: 横担上下倾斜，左右偏歪大于横担长度的2%。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.2 横担
+  level: 一般
+  defect: 横担连接不牢靠，略有松动；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.3 绝缘子
+  part: 4.1.4.2 横担
+  level: 一般
+  defect: 横担上下倾斜，左右偏歪不足横担长度的2%。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.1 钢绞线
+  level: 危急
+  defect: 断股>17%截面；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.1 钢绞线
+  level: 危急
+  defect: 水平拉线对地距离不能满足要求。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.1 钢绞线
+  level: 严重
+  defect: 严重锈蚀；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.1 钢绞线
+  level: 严重
+  defect: 断股7%~17%截面；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.1 钢绞线
+  level: 严重
+  defect: 道路边的拉线应设防护设施（如护坡、保护管等）而未设置；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.1 钢绞线
+  level: 严重
+  defect: 拉线绝缘子未按规定设置；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.1 钢绞线
+  level: 严重
+  defect: 明显松弛，电杆发生倾斜；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.1 钢绞线
+  level: 严重
+  defect: 拉线金具不齐全。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.1 钢绞线
+  level: 一般
+  defect: 中度锈蚀；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.1 钢绞线
+  level: 一般
+  defect: 断股<7%截面，摩擦或撞击；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.1 钢绞线
+  level: 一般
+  defect: 道路边的拉线防护设施设置不规范；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.1 钢绞线
+  level: 一般
+  defect: 中度松弛。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.2 基础
+  level: 危急
+  defect: 拉线基础埋深不足标准要求的65%；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.2 基础
+  level: 危急
+  defect: 基础有沉降，沉降值≥25cm。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.2 基础
+  level: 严重
+  defect: 拉线基础埋深不足标准要求的80%；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.2 基础
+  level: 严重
+  defect: 基础有沉降，15cm≤沉降值<25cm。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.2 基础
+  level: 一般
+  defect: 拉线基础埋深不足标准要求的95%；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.5 拉线
+  part: 4.1.5.2 基础
+  level: 一般
+  defect: 基础有沉降，5cm≤沉降值<15cm。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.6 通道
+  part: ''
+  level: 危急
+  defect: 导线对交跨物安全距离不满足Q/GDW519—2010《配电网运行规程》规定要求；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.6 通道
+  part: ''
+  level: 危急
+  defect: 线路通道保护区内树木距导线距离，在最大风偏情况下水平距离：架空裸导线≤2m，绝缘线≤1m；在最大弧垂情况下垂直距离：架空裸导线≤1.5m，绝缘线≤0.8m。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.6 通道
+  part: ''
+  level: 一般
+  defect: 线路通道保护区内树木距导线距离，在最大风偏情况下水平距离：架空裸导线在2.5m~3m之间，绝缘线1.5m~2m之间；在最大弧垂情况下垂直距离：架空裸导线在2m~2.5m之间，绝缘线在1m~1.5m之间；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.6 通道
+  part: ''
+  level: 一般
+  defect: 通道内有违章建筑、堆积物。4.1.7接地装置
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.6 通道
+  part: 4.1.7.1 接地引下线
+  level: 危急
+  defect: 严重锈蚀（大于截面直径或厚度30%）；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.6 通道
+  part: 4.1.7.1 接地引下线
+  level: 危急
+  defect: 出现断开、断裂。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.6 通道
+  part: 4.1.7.1 接地引下线
+  level: 严重
+  defect: 中度锈蚀（大于截面直径或厚度20%，小于30%）;
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.6 通道
+  part: 4.1.7.1 接地引下线
+  level: 严重
+  defect: 连接松动、接地不良；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.6 通道
+  part: 4.1.7.1 接地引下线
+  level: 严重
+  defect: 截面不满足要求要求。
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.6 通道
+  part: 4.1.7.1 接地引下线
+  level: 一般
+  defect: 轻度锈蚀（小于截面直径或厚度20%）；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.6 通道
+  part: 4.1.7.1 接地引下线
+  level: 一般
+  defect: 无明显接地。4.1.7.2接地体
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.8 附件
+  part: 4.1.8.1 标识
+  level: 一般
+  defect: 设备标识、警示标识安装位置偏移；
+- device_category: 4.1 架空线路缺陷类别
+  component: 4.1.8 附件
+  part: 4.1.8.1 标识
+  level: 一般
+  defect: 无标识或缺少标识。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.1 套管
+  part: ''
+  level: 危急
+  defect: 严重破损；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.1 套管
+  part: ''
+  level: 危急
+  defect: 表面有严重放电痕迹。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.1 套管
+  part: ''
+  level: 严重
+  defect: 有裂纹（撕裂）或破损；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.1 套管
+  part: ''
+  level: 严重
+  defect: 有明显放电。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.1 套管
+  part: ''
+  level: 一般
+  defect: 略有破损；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.1 套管
+  part: ''
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.2 开关本体
+  part: ''
+  level: 危急
+  defect: 电气连接处实测温度>90℃或相间温差>40K；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.2 开关本体
+  part: ''
+  level: 危急
+  defect: 绝缘电阻折算到20℃下，<300MΩ。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.2 开关本体
+  part: ''
+  level: 严重
+  defect: 严重锈蚀；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.2 开关本体
+  part: ''
+  level: 严重
+  defect: 电气连接处80℃<实测温度≤90℃或30K<相间温差≤40K；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.2 开关本体
+  part: ''
+  level: 严重
+  defect: 绝缘电阻折算到20℃下，<400MΩ;
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.2 开关本体
+  part: ''
+  level: 严重
+  defect: 主回路直流电阻试验数据与初始值相差≥100%。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.2 开关本体
+  part: ''
+  level: 一般
+  defect: 中度锈蚀；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.2 开关本体
+  part: ''
+  level: 一般
+  defect: 污秽较为严重；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.2 开关本体
+  part: ''
+  level: 一般
+  defect: 电气连接处75℃<实测温度≤80℃或10K<相间温差≤30K；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.2 开关本体
+  part: ''
+  level: 一般
+  defect: 绝缘电阻折算到20℃下，<500MΩ;
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.2 开关本体
+  part: ''
+  level: 一般
+  defect: 主回路直流电阻试验数据与初始值相差≥20%。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.3 隔离开关
+  part: ''
+  level: 危急
+  defect: 电气连接处实测温度>90℃或相间温差>40K；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.3 隔离开关
+  part: ''
+  level: 危急
+  defect: 表面有严重放电痕迹；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.3 隔离开关
+  part: ''
+  level: 危急
+  defect: 有严重破损。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.3 隔离开关
+  part: ''
+  level: 严重
+  defect: 严重锈蚀；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.3 隔离开关
+  part: ''
+  level: 严重
+  defect: 有明显放电；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.3 隔离开关
+  part: ''
+  level: 严重
+  defect: 电气连接处80℃<实测温度≤90℃或30K<相间温差≤40K；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.3 隔离开关
+  part: ''
+  level: 严重
+  defect: 有裂纹（撕裂）或破损；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.3 隔离开关
+  part: ''
+  level: 严重
+  defect: 严重卡涩。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.3 隔离开关
+  part: ''
+  level: 一般
+  defect: 中度锈蚀；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.3 隔离开关
+  part: ''
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.3 隔离开关
+  part: ''
+  level: 一般
+  defect: 电气连接处75℃<实测温度≤80℃或10K<相间温差≤30K；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.3 隔离开关
+  part: ''
+  level: 一般
+  defect: 轻微卡涩；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.3 隔离开关
+  part: ''
+  level: 一般
+  defect: 略有破损。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.4 操作机构
+  part: 4.2.4.1 操作机构
+  level: 严重
+  defect: 严重锈蚀；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.4 操作机构
+  part: 4.2.4.1 操作机构
+  level: 严重
+  defect: 无法储能；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.4 操作机构
+  part: 4.2.4.1 操作机构
+  level: 严重
+  defect: 1次操作不成功；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.4 操作机构
+  part: 4.2.4.1 操作机构
+  level: 严重
+  defect: 严重卡涩。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.4 操作机构
+  part: 4.2.4.1 操作机构
+  level: 一般
+  defect: 中度锈蚀；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.4 操作机构
+  part: 4.2.4.1 操作机构
+  level: 一般
+  defect: 轻微卡涩。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.5 接地
+  part: 4.2.5.1 接地引下线
+  level: 危急
+  defect: 严重锈蚀（大于截面直径或厚度30%）；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.5 接地
+  part: 4.2.5.1 接地引下线
+  level: 危急
+  defect: 出现断开、断裂。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.5 接地
+  part: 4.2.5.1 接地引下线
+  level: 严重
+  defect: 中度锈蚀（大于截面直径或厚度20%，小于30%）；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.5 接地
+  part: 4.2.5.1 接地引下线
+  level: 严重
+  defect: 连接松动、接地不良；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.5 接地
+  part: 4.2.5.1 接地引下线
+  level: 严重
+  defect: 截面不满足要求。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.5 接地
+  part: 4.2.5.1 接地引下线
+  level: 一般
+  defect: 轻度锈蚀（小于截面直径或厚度20%）；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.5 接地
+  part: 4.2.5.1 接地引下线
+  level: 一般
+  defect: 无明显接地。4.2.5.2接地体
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.6 标识
+  part: ''
+  level: 一般
+  defect: 设备标识、警示标识安装位置偏移；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.6 标识
+  part: ''
+  level: 一般
+  defect: 无标识或缺少标识。
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.7 互感器
+  part: ''
+  level: 危急
+  defect: 外壳和套管有严重破损；
+- device_category: 4.2 柱上真空开关缺陷类别
+  component: 4.2.7 互感器
+  part: ''
+  level: 危急
+  defect: 20℃时一次绝缘电阻<1000MΩ，二次绝缘电阻<1MΩ（采用1000V摇表，下同）。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.1 套管
+  part: ''
+  level: 危急
+  defect: 严重破损；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.1 套管
+  part: ''
+  level: 危急
+  defect: 表面有严重放电痕迹。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.1 套管
+  part: ''
+  level: 严重
+  defect: 外壳有裂纹（撕裂）或破损；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.1 套管
+  part: ''
+  level: 严重
+  defect: 有明显放电。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.1 套管
+  part: ''
+  level: 一般
+  defect: 略有破损；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.1 套管
+  part: ''
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 危急
+  defect: 电气连接处实测温度>90℃或相间温差>40K；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 危急
+  defect: 表面有严重放电痕迹；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 危急
+  defect: 气压表在闭锁区域范围；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 危急
+  defect: 绝缘电阻折算到20℃下，<300MΩ。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 严重
+  defect: 严重锈蚀；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 严重
+  defect: 有明显放电；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 严重
+  defect: 电气连接处80℃<实测温度≤90℃或30K<相间温差≤40K；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 严重
+  defect: 气压表在告警区域范围；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 严重
+  defect: 绝缘电阻折算到20℃下，<400MΩ;
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 严重
+  defect: 主回路直流电阻试验数据与初始值相差≥100%。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 一般
+  defect: 中度锈蚀；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 一般
+  defect: 污秽较为严重；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 一般
+  defect: 电气连接处75℃<实测温度≤80℃或10K<相间温差≤30K；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 一般
+  defect: 绝缘电阻折算到20℃下，<500MΩ;
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.2 开关本体
+  part: ''
+  level: 一般
+  defect: 主回路直流电阻试验数据与初始值相差≥20%。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.3 隔离开关
+  part: ''
+  level: 危急
+  defect: 有严重破损；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.3 隔离开关
+  part: ''
+  level: 危急
+  defect: 电气连接处实测温度>90℃或相间温差>40K；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.3 隔离开关
+  part: ''
+  level: 危急
+  defect: 表面有严重放电痕迹。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.3 隔离开关
+  part: ''
+  level: 严重
+  defect: 有裂纹（撕裂）或破损；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.3 隔离开关
+  part: ''
+  level: 严重
+  defect: 电气连接处80℃<实测温度≤90℃或30K<相间温差≤40K；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.3 隔离开关
+  part: ''
+  level: 严重
+  defect: 严重锈蚀；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.3 隔离开关
+  part: ''
+  level: 严重
+  defect: 有明显放电；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.3 隔离开关
+  part: ''
+  level: 严重
+  defect: 严重卡涩。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.3 隔离开关
+  part: ''
+  level: 一般
+  defect: 略有破损；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.3 隔离开关
+  part: ''
+  level: 一般
+  defect: 电气连接处75℃<实测温度≤80℃或10K<相间温差≤30K；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.3 隔离开关
+  part: ''
+  level: 一般
+  defect: 轻微卡涩；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.3 隔离开关
+  part: ''
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.3 隔离开关
+  part: ''
+  level: 一般
+  defect: 中度锈蚀。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.4 操作机构
+  part: 4.3.4.1 操作机构
+  level: 严重
+  defect: 严重锈蚀；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.4 操作机构
+  part: 4.3.4.1 操作机构
+  level: 严重
+  defect: 严重卡涩；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.4 操作机构
+  part: 4.3.4.1 操作机构
+  level: 严重
+  defect: 无法储能；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.4 操作机构
+  part: 4.3.4.1 操作机构
+  level: 严重
+  defect: 1次操作不正确。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.4 操作机构
+  part: 4.3.4.1 操作机构
+  level: 一般
+  defect: 轻微卡涩；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.4 操作机构
+  part: 4.3.4.1 操作机构
+  level: 一般
+  defect: 中度锈蚀。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.5 接地
+  part: 4.3.5.1 接地引下线
+  level: 危急
+  defect: 严重锈蚀（大于截面直径或厚度30%）；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.5 接地
+  part: 4.3.5.1 接地引下线
+  level: 危急
+  defect: 出现断开、断裂。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.5 接地
+  part: 4.3.5.1 接地引下线
+  level: 严重
+  defect: 中度锈蚀（大于截面直径或厚度20%，小于30%）；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.5 接地
+  part: 4.3.5.1 接地引下线
+  level: 严重
+  defect: 连接松动、接地不良；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.5 接地
+  part: 4.3.5.1 接地引下线
+  level: 严重
+  defect: 截面不满足要求。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.5 接地
+  part: 4.3.5.1 接地引下线
+  level: 一般
+  defect: 轻度锈蚀（小于截面直径或厚度20%）；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.5 接地
+  part: 4.3.5.1 接地引下线
+  level: 一般
+  defect: 无明显接地。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.6 标识
+  part: ''
+  level: 一般
+  defect: 设备标识、警示标识安装位置偏移；
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.6 标识
+  part: ''
+  level: 一般
+  defect: 无标识或缺少标识。
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.7 互感器
+  part: ''
+  level: 危急
+  defect: 绝缘电阻折算到20℃时，一次<1000MΩ，二次<1MΩ;
+- device_category: 4.3 柱上 SF6开关缺陷类别
+  component: 4.3.7 互感器
+  part: ''
+  level: 危急
+  defect: 外壳和套管有严重破损。
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.1 支持绝缘子
+  part: ''
+  level: 危急
+  defect: 外表严重破损；
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.1 支持绝缘子
+  part: ''
+  level: 危急
+  defect: 表面有严重放电痕迹。
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.1 支持绝缘子
+  part: ''
+  level: 严重
+  defect: 外表有裂纹（撕裂）或破损；
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.1 支持绝缘子
+  part: ''
+  level: 严重
+  defect: 有明显放电。
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.1 支持绝缘子
+  part: ''
+  level: 一般
+  defect: 外表略有破损；
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.1 支持绝缘子
+  part: ''
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电。
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.2 隔离开关本体
+  part: ''
+  level: 严重
+  defect: 电气连接处80℃<实测温度≤90℃或30K<相间温差≤40K；
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.2 隔离开关本体
+  part: ''
+  level: 严重
+  defect: 严重锈蚀；
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.2 隔离开关本体
+  part: ''
+  level: 严重
+  defect: 严重卡涩。
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.2 隔离开关本体
+  part: ''
+  level: 一般
+  defect: 电气连接处75℃<实测温度≤80℃或10K<相间温差≤30K；
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.2 隔离开关本体
+  part: ''
+  level: 一般
+  defect: 中度锈蚀；
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.2 隔离开关本体
+  part: ''
+  level: 一般
+  defect: 轻微卡涩。
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.3 操作机构
+  part: ''
+  level: 严重
+  defect: 严重锈蚀；
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.3 操作机构
+  part: ''
+  level: 严重
+  defect: 严重卡涩。
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.3 操作机构
+  part: ''
+  level: 一般
+  defect: 轻微卡涩；
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.3 操作机构
+  part: ''
+  level: 一般
+  defect: 中度锈蚀。
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.4 接地
+  part: 4.4.4.1 接地引下线
+  level: 危急
+  defect: 严重锈蚀（大于截面直径或厚度30%）；
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.4 接地
+  part: 4.4.4.1 接地引下线
+  level: 危急
+  defect: 出现断开、断裂。
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.4 接地
+  part: 4.4.4.1 接地引下线
+  level: 严重
+  defect: 中度锈蚀（大于截面直径或厚度20%，小于30%）;
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.4 接地
+  part: 4.4.4.1 接地引下线
+  level: 严重
+  defect: 连接松动、接地不良；
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.4 接地
+  part: 4.4.4.1 接地引下线
+  level: 严重
+  defect: 截面不满足要求。
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.4 接地
+  part: 4.4.4.1 接地引下线
+  level: 一般
+  defect: 轻度锈蚀（小于截面直径或厚度20%）;
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.4 接地
+  part: 4.4.4.1 接地引下线
+  level: 一般
+  defect: 无明显接地。
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.4 接地
+  part: 4.4.4.2 接地体
+  level: 一般
+  defect: 设备标识、警示标识安装位置偏移；
+- device_category: 4.4 柱上隔离开关缺陷类别
+  component: 4.4.4 接地
+  part: 4.4.4.2 接地体
+  level: 一般
+  defect: 无标识或缺少标识。
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 危急
+  defect: 严重破损；
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 危急
+  defect: 表面有严重放电痕迹；
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 危急
+  defect: 操作有剧烈弹动已不能正常操作；
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 危急
+  defect: 熔断器故障跌落次数超厂家规定值；
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 危急
+  defect: 电气连接处实测温度>90℃或相间温差>40K。
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 严重
+  defect: 有裂纹（撕裂）或破损；
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 严重
+  defect: 有明显放电；
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 严重
+  defect: 操作有剧烈弹动但能正常操作；
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 严重
+  defect: 严重锈蚀；
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 严重
+  defect: 电气连接处 80℃<实测温度≤90℃或30K<相间温差≤40K。
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 一般
+  defect: 略有破损；
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电；
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 一般
+  defect: 操作有弹动但能正常操作；
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 一般
+  defect: 中度锈蚀；
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 一般
+  defect: 固定松动，支架位移、有异物；
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 一般
+  defect: 绝缘罩损坏；
+- device_category: 4.5 跌落式熔断器缺陷类别
+  component: ''
+  part: ''
+  level: 一般
+  defect: 电气连接处75℃<实测温度≤80℃或10K<相间温差≤30K。
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.1 本体
+  level: 危急
+  defect: 严重破损；
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.1 本体
+  level: 危急
+  defect: 表面有严重放电痕迹。
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.1 本体
+  level: 严重
+  defect: 有裂纹（撕裂）或破损；
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.1 本体
+  level: 严重
+  defect: 电气连接处相间温差异常；
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.1 本体
+  level: 严重
+  defect: 有明显放电；
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.1 本体
+  level: 严重
+  defect: 本体或引线脱落。
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.1 本体
+  level: 一般
+  defect: 略有破损；
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.1 本体
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电；
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.1 本体
+  level: 一般
+  defect: 松动。
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.2 接地引下线
+  level: 危急
+  defect: 严重锈蚀（大于截面直径或厚度30%）；
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.2 接地引下线
+  level: 危急
+  defect: 出现断开、断裂。
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.2 接地引下线
+  level: 严重
+  defect: 中度锈蚀（大于截面直径或厚度20%，小于30%）；
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.2 接地引下线
+  level: 严重
+  defect: 连接松动、接地不良；
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.2 接地引下线
+  level: 严重
+  defect: 截面不满足要求。
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.2 接地引下线
+  level: 一般
+  defect: 轻度锈蚀（小于截面直径或厚度20%）；
+- device_category: 4.6 金属氧化物避雷器缺陷类别
+  component: 4.6.1 本体及引线
+  part: 4.6.1.2 接地引下线
+  level: 一般
+  defect: 无明显接地。
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.1 套管
+  part: ''
+  level: 危急
+  defect: 严重破损；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.1 套管
+  part: ''
+  level: 危急
+  defect: 表面有严重放电痕迹；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.1 套管
+  part: ''
+  level: 危急
+  defect: 电气连接处实测温度>90℃或相间温差>40K;
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.1 套管
+  part: ''
+  level: 危急
+  defect: 绝缘电阻折算到20℃时，<2000MΩ。
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.1 套管
+  part: ''
+  level: 严重
+  defect: 外壳有裂纹（撕裂）或破损；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.1 套管
+  part: ''
+  level: 严重
+  defect: 有明显放电；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.1 套管
+  part: ''
+  level: 严重
+  defect: 电气连接处80℃<实测温度≤90℃或30K<相间温差≤40K。
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.1 套管
+  part: ''
+  level: 一般
+  defect: 略有破损；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.1 套管
+  part: ''
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.1 套管
+  part: ''
+  level: 一般
+  defect: 电气连接处75℃<实测温度≤80℃或10K<相间温差≤30K。
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 危急
+  defect: 实测温度>55℃；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 危急
+  defect: 渗漏、鼓肚严重；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 危急
+  defect: 电容值偏差超出出厂值或交接值的-5%～+5%范围（警示值）。
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 严重
+  defect: 50℃<实测温度≤55℃；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 严重
+  defect: 有异声；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 严重
+  defect: 严重锈蚀。
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 一般
+  defect: 45℃<实测温度≤50℃;
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 一般
+  defect: 略有渗漏、鼓肚；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 一般
+  defect: 中度锈蚀。4.7.3熔断器
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 危急
+  defect: 严重破损；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 危急
+  defect: 电气连接处实测温度>90℃或相间温差>40K;
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 危急
+  defect: 表面有严重放电痕迹。
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 严重
+  defect: 外壳有裂纹（撕裂）或破损；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 严重
+  defect: 电气连接处 80℃<实测温度≤90℃或30K<相间温差≤40K；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 严重
+  defect: 有明显放电。
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 一般
+  defect: 略有破损；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 一般
+  defect: 电气连接处75℃<实测温度≤80℃或10K<相间温差≤30K；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.2 电容器本体
+  part: ''
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电。
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.4 控制机构
+  part: ''
+  level: 严重
+  defect: 1次操作不正确；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.4 控制机构
+  part: ''
+  level: 严重
+  defect: 控制器有3个及以上显示错误；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.4 控制机构
+  part: ''
+  level: 严重
+  defect: 严重锈蚀。
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.4 控制机构
+  part: ''
+  level: 一般
+  defect: 中度锈蚀；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.4 控制机构
+  part: ''
+  level: 一般
+  defect: 控制器有个别显示错误。4.7.5接地
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.4 控制机构
+  part: 4.7.5.1 接地引下线
+  level: 危急
+  defect: 严重锈蚀（大于截面直径或厚度30%）；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.4 控制机构
+  part: 4.7.5.1 接地引下线
+  level: 危急
+  defect: 出现断开、断裂。
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.4 控制机构
+  part: 4.7.5.1 接地引下线
+  level: 严重
+  defect: 中度锈蚀（大于截面直径或厚度20%，小于30%）；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.4 控制机构
+  part: 4.7.5.1 接地引下线
+  level: 严重
+  defect: 连接松动、接地不良；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.4 控制机构
+  part: 4.7.5.1 接地引下线
+  level: 严重
+  defect: 截面不满足要求。
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.4 控制机构
+  part: 4.7.5.1 接地引下线
+  level: 一般
+  defect: 轻度锈蚀（小于截面直径或厚度20%）；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.4 控制机构
+  part: 4.7.5.1 接地引下线
+  level: 一般
+  defect: 无明显接地。
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.6 标识
+  part: ''
+  level: 一般
+  defect: 设备标识、警示标识安装位置偏移；
+- device_category: 4.7 电容器缺陷类别
+  component: 4.7.6 标识
+  part: ''
+  level: 一般
+  defect: 无标识或缺少标识。
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.1 绕组及套管
+  part: ''
+  level: 危急
+  defect: 严重破损；
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.1 绕组及套管
+  part: ''
+  level: 危急
+  defect: 表面有严重放电痕迹；
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.1 绕组及套管
+  part: ''
+  level: 危急
+  defect: 电气连接处实测温度>90℃或相间温差>40K；
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.1 绕组及套管
+  part: ''
+  level: 危急
+  defect: 一次绝缘电阻折算到20℃时，<1000MΩ。
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.1 绕组及套管
+  part: ''
+  level: 严重
+  defect: 有裂纹（撕裂）或破损；
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.1 绕组及套管
+  part: ''
+  level: 严重
+  defect: 有明显放电；
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.1 绕组及套管
+  part: ''
+  level: 严重
+  defect: 电气连接处 80℃<实测温度≤90℃或30K<相间温差≤40K；
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.1 绕组及套管
+  part: ''
+  level: 严重
+  defect: 二次绝缘电阻折算到20℃时，<1MΩ。
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.1 绕组及套管
+  part: ''
+  level: 一般
+  defect: 略有破损；
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.1 绕组及套管
+  part: ''
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电；
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.1 绕组及套管
+  part: ''
+  level: 一般
+  defect: 电气连接处75℃<实测温度≤80℃或10K<相间温差≤30K。
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.2 油箱（外壳）
+  part: ''
+  level: 严重
+  defect: 严重渗油；
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.2 油箱（外壳）
+  part: ''
+  level: 严重
+  defect: 严重锈蚀。
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.2 油箱（外壳）
+  part: ''
+  level: 一般
+  defect: 轻微渗油；
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.2 油箱（外壳）
+  part: ''
+  level: 一般
+  defect: 中度锈蚀。
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.3 接地
+  part: 4.8.3.1 接地引下线
+  level: 危急
+  defect: 严重锈蚀（大于截面直径或厚度30%）；
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.3 接地
+  part: 4.8.3.1 接地引下线
+  level: 危急
+  defect: 出现断开、断裂。
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.3 接地
+  part: 4.8.3.1 接地引下线
+  level: 严重
+  defect: 中度锈蚀（大于截面直径或厚度20%，小于30%）；
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.3 接地
+  part: 4.8.3.1 接地引下线
+  level: 严重
+  defect: 连接松动、接地不良；
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.3 接地
+  part: 4.8.3.1 接地引下线
+  level: 严重
+  defect: 截面不满足要求。
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.3 接地
+  part: 4.8.3.1 接地引下线
+  level: 一般
+  defect: 轻度锈蚀（小于截面直径或厚度20%）;
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.3 接地
+  part: 4.8.3.1 接地引下线
+  level: 一般
+  defect: 无明显接地。4.8.3.2接地体
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.4 标识
+  part: ''
+  level: 一般
+  defect: 设备标识、警示标识安装位置偏移；
+- device_category: 4.8 高压计量箱缺陷类别
+  component: 4.8.4 标识
+  part: ''
+  level: 一般
+  defect: 无标识或缺少标识。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.1 高、低压套管
+  level: 危急
+  defect: 严重破损；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.1 高、低压套管
+  level: 危急
+  defect: 有严重放电（户外变）；有严重放电痕迹（户内变）；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.1 高、低压套管
+  level: 危急
+  defect: 1.6MVA以上的配电变压器相间直流电阻大于三相平均值的2%或线间直流电阻大于三相平均值的1%；1.6MVA及以下的配电变压器相间直流电阻大于三相平均值的4%或线间直流电阻大于三相平均值的2%。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.1 高、低压套管
+  level: 严重
+  defect: 外壳有裂纹（撕裂）或破损；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.1 高、低压套管
+  level: 严重
+  defect: 污秽严重，有明显放电（户外变）；有明显放电痕迹（户内变）；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.1 高、低压套管
+  level: 严重
+  defect: 绕组及套管绝缘电阻与初始值相比降低30%及以上。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.1 高、低压套管
+  level: 一般
+  defect: 略有破损；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.1 高、低压套管
+  level: 一般
+  defect: 污秽较严重（户内、户外变）；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.1 高、低压套管
+  level: 一般
+  defect: 绕组及套管绝缘电阻与初始值相比降低20%～30%。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.2 导线接头及外部连接
+  level: 危急
+  defect: 线夹与设备连接平面出现缝隙，螺丝明显脱出，引线随时可能脱出；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.2 导线接头及外部连接
+  level: 危急
+  defect: 线夹破损断裂严重，有脱落的可能，对引线无法形成紧固作用；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.2 导线接头及外部连接
+  level: 危急
+  defect: 截面损失达25%以上；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.2 导线接头及外部连接
+  level: 危急
+  defect: 电气连接处实测温度>90℃或相间温差>40K。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.2 导线接头及外部连接
+  level: 严重
+  defect: 截面损失达7%以上，但小于25%；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.2 导线接头及外部连接
+  level: 严重
+  defect: 电气连接处80℃<实测温度≤90或30K<相间温差≤40K。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.2 导线接头及外部连接
+  level: 一般
+  defect: 截面损失<7%；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.2 导线接头及外部连接
+  level: 一般
+  defect: 电气连接处75℃<实测温度≤80℃或10K<相间温差≤30K。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.3 高、低压绕组
+  level: 严重
+  defect: 声响异常；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.3 高、低压绕组
+  level: 严重
+  defect: Yyn0接线三相不平衡率>30%；Dyn11接线三相不平衡率在>40%；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.3 高、低压绕组
+  level: 严重
+  defect: 干式变压器器身温度超出厂家允许值的20%。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.3 高、低压绕组
+  level: 一般
+  defect: Yyn0接线三相不平衡率在15%～30%；Dyn11接线三相不平衡率在25%～40%；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.1 绕组及套管
+  part: 4.9.1.3 高、低压绕组
+  level: 一般
+  defect: 干式变压器器身温度超出厂家允许值的10%。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.4 油箱
+  part: 4.9.4.1 油箱本体
+  level: 严重
+  defect: 严重渗油；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.4 油箱
+  part: 4.9.4.1 油箱本体
+  level: 严重
+  defect: 严重锈蚀；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.4 油箱
+  part: 4.9.4.1 油箱本体
+  level: 严重
+  defect: 配电变压器上层油温超过95℃或温升超过55K。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.4 油箱
+  part: 4.9.4.1 油箱本体
+  level: 一般
+  defect: 轻微渗油；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.4 油箱
+  part: 4.9.4.1 油箱本体
+  level: 一般
+  defect: 明显锈斑。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.4 油箱
+  part: 4.9.4.2 油位计
+  level: 一般
+  defect: 油位低于正常油位的下限，油位可见；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.4 油箱
+  part: 4.9.4.2 油位计
+  level: 一般
+  defect: 油位指示不清晰。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.4 油箱
+  part: 4.9.4.4 呼吸器
+  level: 严重
+  defect: 硅胶筒玻璃破损；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.4 油箱
+  part: 4.9.4.4 呼吸器
+  level: 严重
+  defect: 硅胶潮解全部变色。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.6 接地
+  part: 4.9.6.1 接地引下线
+  level: 危急
+  defect: 严重锈蚀（大于截面直径或厚度30%）;
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.6 接地
+  part: 4.9.6.1 接地引下线
+  level: 危急
+  defect: 出现断开、断裂。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.6 接地
+  part: 4.9.6.1 接地引下线
+  level: 严重
+  defect: 中度锈蚀（大于截面直径或厚度20%，小于30%）；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.6 接地
+  part: 4.9.6.1 接地引下线
+  level: 严重
+  defect: 连接松动、接地不良；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.6 接地
+  part: 4.9.6.1 接地引下线
+  level: 严重
+  defect: 截面不满足要求。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.6 接地
+  part: 4.9.6.1 接地引下线
+  level: 一般
+  defect: 轻度锈蚀（小于截面直径或厚度20%）;
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.6 接地
+  part: 4.9.6.1 接地引下线
+  level: 一般
+  defect: 无明显接地。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.6 接地
+  part: 4.9.6.2 接地体
+  level: 严重
+  defect: 较严重锈蚀（大于截面直径或厚度20%，小于30%）；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.6 接地
+  part: 4.9.6.2 接地体
+  level: 严重
+  defect: 埋深不足（耕地<0.8m，非耕地<0.6m）；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.6 接地
+  part: 4.9.6.2 接地体
+  level: 严重
+  defect: 接地电阻不合格（容量100kVA及以上配变接地电阻>4Ω，容量100kVA以下配变接地电阻值>10Ω)。
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.8 标识
+  part: ''
+  level: 一般
+  defect: 设备标识、警示标识安装位置偏移；
+- device_category: 4.9 配电变压器缺陷类别
+  component: 4.9.8 标识
+  part: ''
+  level: 一般
+  defect: 无标识或缺少标识。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 危急
+  defect: 表面有严重放电痕迹；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 危急
+  defect: 严重破损；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 危急
+  defect: 位置指示相反，或无指示；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 危急
+  defect: 存在严重放电声音；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 危急
+  defect: 电气连接处实测温度>90℃或相间温差>40K;
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 危急
+  defect: 气压表在闭锁区域范围；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 危急
+  defect: 绝缘电阻折算到20℃下，<300MΩ。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 严重
+  defect: 位置指示有偏差；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 严重
+  defect: 存在异常放电声音；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 严重
+  defect: 有明显放电；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 严重
+  defect: 电气连接处80℃<实测温度≤90℃或30K<相间温差≤40K；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 严重
+  defect: 气压表在告警区域范围；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 严重
+  defect: 绝缘电阻折算到20℃下，<400MΩ;
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 严重
+  defect: 主回路直流电阻试验数据与初始值相差≥100%；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 严重
+  defect: 压力释放通道失效：
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 严重
+  defect: 带电检测局放测试数据异常。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 一般
+  defect: 电气连接处75℃<实测温度≤80℃或10K<相间温差≤30K；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 一般
+  defect: 绝缘电阻折算到20℃下，<500MΩ;
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.1 本体
+  part: 4.10.1.1 开关
+  level: 一般
+  defect: 主回路直流电阻试验数据与初始值相差≥50%。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.1 互感器
+  level: 危急
+  defect: 表面有严重放电痕迹；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.1 互感器
+  level: 危急
+  defect: 严重破损；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.1 互感器
+  level: 危急
+  defect: 绝缘电阻折算到20℃下，一次<1000MΩ，二次<1MΩ。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.1 互感器
+  level: 严重
+  defect: 有明显放电；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.1 互感器
+  level: 严重
+  defect: 外壳有裂纹（撕裂）或破损。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.1 互感器
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.1 互感器
+  level: 一般
+  defect: 略有破损。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.2 避雷器
+  level: 危急
+  defect: 表面有严重放电痕迹；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.2 避雷器
+  level: 危急
+  defect: 严重破损；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.2 避雷器
+  level: 危急
+  defect: 绝缘电阻折算到20℃下，一次<1000MΩ。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.2 避雷器
+  level: 严重
+  defect: 外壳有裂纹（撕裂）或破损；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.2 避雷器
+  level: 严重
+  defect: 接线方式不符合运行要求且未做警示标识。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.2 避雷器
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.2 避雷器
+  level: 一般
+  defect: 略有破损。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.7 绝缘子
+  level: 危急
+  defect: 表面有严重放电痕迹；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.7 绝缘子
+  level: 危急
+  defect: 严重破损。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.7 绝缘子
+  level: 严重
+  defect: 有明显放电；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.7 绝缘子
+  level: 严重
+  defect: 外壳有裂纹（撕裂）或破损。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.7 绝缘子
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.2 附件
+  part: 4.10.2.7 绝缘子
+  level: 一般
+  defect: 略有破损。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.3 操动系统及控制回路
+  part: 4.10.3.2 分合闸线圈
+  level: 一般
+  defect: 卡涩、接触不良；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.3 操动系统及控制回路
+  part: 4.10.3.2 分合闸线圈
+  level: 一般
+  defect: 曾发生切换不到位，原因不明。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.4 辅助部件
+  part: 4.10.4.3 接地引下线
+  level: 危急
+  defect: 严重锈蚀（大于截面直径或厚度30%）;
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.4 辅助部件
+  part: 4.10.4.3 接地引下线
+  level: 危急
+  defect: 出现断开、断裂。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.4 辅助部件
+  part: 4.10.4.3 接地引下线
+  level: 严重
+  defect: 中度锈蚀（大于截面直径或厚度20%，小于30%）；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.4 辅助部件
+  part: 4.10.4.3 接地引下线
+  level: 严重
+  defect: 连接松动、接地不良：
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.4 辅助部件
+  part: 4.10.4.3 接地引下线
+  level: 严重
+  defect: 截面不满足要求。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.4 辅助部件
+  part: 4.10.4.3 接地引下线
+  level: 一般
+  defect: 轻度锈蚀（小于截面直径或厚度20%）；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.4 辅助部件
+  part: 4.10.4.3 接地引下线
+  level: 一般
+  defect: 无明显接地。
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.5 标识
+  part: ''
+  level: 一般
+  defect: 设备标识、警示标识安装位置偏移；
+- device_category: 4.10 开关柜缺陷类别
+  component: 4.10.5 标识
+  part: ''
+  level: 一般
+  defect: 无标识或缺少标识。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.1 电缆本体
+  part: ''
+  level: 严重
+  defect: 耐压试验前后，主绝缘电阻值下降，可短期维持运行；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.1 电缆本体
+  part: ''
+  level: 严重
+  defect: 埋深量不能满足设计要求且没有任何保护措施；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.1 电缆本体
+  part: ''
+  level: 严重
+  defect: 电缆外护套严重破损、变形；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.1 电缆本体
+  part: ''
+  level: 严重
+  defect: 交叉处未设置防火隔板。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.1 电缆本体
+  part: ''
+  level: 一般
+  defect: 耐压试验前后，主绝缘电阻值下降，仍可以长期运行；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.1 电缆本体
+  part: ''
+  level: 一般
+  defect: 电缆外护套明显破损、变形；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.1 电缆本体
+  part: ''
+  level: 一般
+  defect: 部分交叉处未设置防火隔板。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.2 电缆终端
+  part: ''
+  level: 危急
+  defect: 电气连接处实测温度>90℃或相间温差>40K；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.2 电缆终端
+  part: ''
+  level: 危急
+  defect: 严重破损；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.2 电缆终端
+  part: ''
+  level: 危急
+  defect: 表面有严重放电痕迹。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.2 电缆终端
+  part: ''
+  level: 严重
+  defect: 电气连接处80℃<实测温度≤90℃或30K<相间温差≤40K；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.2 电缆终端
+  part: ''
+  level: 严重
+  defect: 有裂纹（撕裂）或破损；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.2 电缆终端
+  part: ''
+  level: 严重
+  defect: 有明显放电；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.2 电缆终端
+  part: ''
+  level: 严重
+  defect: 无防火阻燃及防小动物措施。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.2 电缆终端
+  part: ''
+  level: 一般
+  defect: 电气连接处75℃<实测温度≤80℃或10K<相间温差≤30K;
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.2 电缆终端
+  part: ''
+  level: 一般
+  defect: 略有破损；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.2 电缆终端
+  part: ''
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.2 电缆终端
+  part: ''
+  level: 一般
+  defect: 防火阻燃措施不完善。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.3 电缆中间接头
+  part: ''
+  level: 严重
+  defect: 有裂纹（撕裂）或破损；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.3 电缆中间接头
+  part: ''
+  level: 严重
+  defect: 被污水浸泡、杂物堆压，水深超过1m；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.3 电缆中间接头
+  part: ''
+  level: 严重
+  defect: 底座接头腐蚀进展很快，表面出现腐蚀物沉积，受力部位截面明显变小；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.3 电缆中间接头
+  part: ''
+  level: 严重
+  defect: 无防火阻燃措施；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.3 电缆中间接头
+  part: ''
+  level: 严重
+  defect: 相间温差异常。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.3 电缆中间接头
+  part: ''
+  level: 一般
+  defect: 电缆中间接头略有破损；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.3 电缆中间接头
+  part: ''
+  level: 一般
+  defect: 被污水浸泡、杂物堆压，水深不超过1m;
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.3 电缆中间接头
+  part: ''
+  level: 一般
+  defect: 底座接头锌层（银层）损失，内部开始腐蚀：
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.3 电缆中间接头
+  part: ''
+  level: 一般
+  defect: 防火阻燃措施不完善。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.4 接地系统
+  part: 4.11.4.1 接地引下线
+  level: 危急
+  defect: 严重锈蚀（大于截面直径或厚度30%）；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.4 接地系统
+  part: 4.11.4.1 接地引下线
+  level: 危急
+  defect: 出现断开、断裂。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.4 接地系统
+  part: 4.11.4.1 接地引下线
+  level: 严重
+  defect: 中度锈蚀（大于截面直径或厚度20%，小于30%）；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.4 接地系统
+  part: 4.11.4.1 接地引下线
+  level: 严重
+  defect: 连接松动、接地不良；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.4 接地系统
+  part: 4.11.4.1 接地引下线
+  level: 严重
+  defect: 截面不满足要求。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.4 接地系统
+  part: 4.11.4.1 接地引下线
+  level: 一般
+  defect: 轻度锈蚀（小于截面直径或厚度20%）；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.4 接地系统
+  part: 4.11.4.1 接地引下线
+  level: 一般
+  defect: 无明显接地。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.1 电缆井
+  level: 危急
+  defect: 基础有严重破损、下沉，造成井盖压在本体、接头或者配套辅助设施上；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.1 电缆井
+  level: 危急
+  defect: 井盖缺失；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.1 电缆井
+  level: 危急
+  defect: 井内有可燃气体。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.1 电缆井
+  level: 严重
+  defect: 基础有较大破损、下沉，离本体、接头或者配套辅助设施还有一定距离；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.1 电缆井
+  level: 严重
+  defect: 井盖不平整、有破损，缝隙过大；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.1 电缆井
+  level: 严重
+  defect: 井内积水浸泡电缆或有杂物影响设备安全。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.1 电缆井
+  level: 一般
+  defect: 基础有轻微破损、下沉；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.1 电缆井
+  level: 一般
+  defect: 井内积水浸泡电缆或有杂物。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.2 电缆管沟
+  level: 一般
+  defect: 积清（污）水；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.2 电缆管沟
+  level: 一般
+  defect: 基础有轻微破损、下沉。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.3 电缆排管
+  level: 一般
+  defect: 电缆排管堵塞不通；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.3 电缆排管
+  level: 一般
+  defect: 有破损；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.3 电缆排管
+  level: 一般
+  defect: 端口未封堵。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.4 电缆隧道
+  level: 一般
+  defect: 排水设施损坏；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.4 电缆隧道
+  level: 一般
+  defect: 照明设备损坏；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.4 电缆隧道
+  level: 一般
+  defect: 通风设施损坏；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.4 电缆隧道
+  level: 一般
+  defect: 支架锈蚀、脱落或变形。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.5 隧道竖井
+  level: 严重
+  defect: 井盖多处损坏；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.5 隧道竖井
+  level: 严重
+  defect: 爬梯锈蚀严重。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.5 隧道竖井
+  level: 一般
+  defect: 井盖部分损坏；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.5 隧道竖井
+  level: 一般
+  defect: 爬梯锈蚀、上下档损坏。4.11.5.6防火设备
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.7 电缆线路保护区
+  level: 危急
+  defect: 施工危及线路安全；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.7 电缆线路保护区
+  level: 危急
+  defect: 土壤流失造成排管包方开裂、工井、沟体等墙体开裂甚至凌空的。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.7 电缆线路保护区
+  level: 严重
+  defect: 施工影响线路安全；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.5 电缆通道
+  part: 4.11.5.7 电缆线路保护区
+  level: 严重
+  defect: 土壤流失造成排管包方、工井等大面积暴露。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.6 辅助设施
+  part: 4.11.6.1 辅助设备
+  level: 严重
+  defect: 严重锈蚀；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.6 辅助设施
+  part: 4.11.6.1 辅助设备
+  level: 严重
+  defect: 严重松动、不紧固。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.6 辅助设施
+  part: 4.11.6.1 辅助设备
+  level: 一般
+  defect: 中度锈蚀；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.6 辅助设施
+  part: 4.11.6.1 辅助设备
+  level: 一般
+  defect: 轻微松动、不紧固。
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.6 辅助设施
+  part: 4.11.6.2 标识
+  level: 一般
+  defect: 设备标识、警示标识安装位置偏移；
+- device_category: 4.11 电缆线路缺陷类别
+  component: 4.11.6 辅助设施
+  part: 4.11.6.2 标识
+  level: 一般
+  defect: 无标识或缺少标识。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.1 母线
+  level: 危急
+  defect: 母线温度异常，电气连接处实测温度>90℃或相间温差>40K；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.1 母线
+  level: 危急
+  defect: 绝缘电阻折算到20℃下，<300MΩ。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.1 母线
+  level: 严重
+  defect: 母线温度异常，电气连接处80℃<实测温度≤90℃或30K<相间温差≤40;
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.1 母线
+  level: 严重
+  defect: 绝缘电阻折算到20℃下，<400MΩ。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.1 母线
+  level: 一般
+  defect: 母线温度异常，电气连接处75℃<实测温度≤80℃或10K<相间温差≤30K；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.1 母线
+  level: 一般
+  defect: 绝缘电阻折算到20℃下，<500MΩ。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.2 绝缘子
+  level: 危急
+  defect: 表面有严重放电痕迹；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.2 绝缘子
+  level: 危急
+  defect: 存在连续放电声音；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.2 绝缘子
+  level: 危急
+  defect: 绝缘电阻折算到20℃下，<300MΩ;
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.2 绝缘子
+  level: 危急
+  defect: 表面有严重破损。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.2 绝缘子
+  level: 严重
+  defect: 有明显放电；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.2 绝缘子
+  level: 严重
+  defect: 存在异常放电声音；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.2 绝缘子
+  level: 严重
+  defect: 绝缘电阻折算到20℃下，<400MΩ;
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.2 绝缘子
+  level: 严重
+  defect: 表面有破损；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.2 绝缘子
+  level: 严重
+  defect: 出现大量露珠。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.2 绝缘子
+  level: 一般
+  defect: 污秽较为严重，但表面无明显放电；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.2 绝缘子
+  level: 一般
+  defect: 出现较多露珠；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.2 绝缘子
+  level: 一般
+  defect: 绝缘电阻折算到20℃下，<500MΩ。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.3 避雷器
+  level: 危急
+  defect: 表面有严重放电痕迹；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.3 避雷器
+  level: 危急
+  defect: 连接不可靠，短时即有脱落可能；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.3 避雷器
+  level: 危急
+  defect: 20℃时绝缘电阻<1000MΩ。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.3 避雷器
+  level: 严重
+  defect: 有明显放电；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.1 本体
+  part: 4.12.1.3 避雷器
+  level: 严重
+  defect: 连接不可靠，有脱落可能。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.4 外壳
+  level: 严重
+  defect: 有漏水现象；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.4 外壳
+  level: 严重
+  defect: 严重锈蚀。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.4 外壳
+  level: 一般
+  defect: 有渗水迹象；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.4 外壳
+  level: 一般
+  defect: 轻微锈蚀。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.5 接地引下线
+  level: 危急
+  defect: 严重锈蚀（大于截面直径或厚度30%）；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.5 接地引下线
+  level: 危急
+  defect: 出现断开、断裂。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.5 接地引下线
+  level: 严重
+  defect: 中度锈蚀（大于截面直径或厚度20%，小于30%）；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.5 接地引下线
+  level: 严重
+  defect: 埋深不足；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.5 接地引下线
+  level: 严重
+  defect: 断开、断裂，连接松动、接地不良；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.5 接地引下线
+  level: 严重
+  defect: 截面不满足要求。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.5 接地引下线
+  level: 一般
+  defect: 轻度锈蚀（小于截面直径或厚度20%）；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.5 接地引下线
+  level: 一般
+  defect: 无明显接地；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.5 接地引下线
+  level: 一般
+  defect: 接地电阻值>10Ω。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.6 标识
+  level: 一般
+  defect: 设备标识、警示标识安装位置偏移；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.12.2 辅助部件
+  part: 4.12.2.6 标识
+  level: 一般
+  defect: 无标识或缺少标识。4. 13 构筑物及外壳缺陷类别
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.1 本体
+  part: 4.13.1.2 外体
+  level: 一般
+  defect: 有明显锈蚀；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.1 本体
+  part: 4.13.1.2 外体
+  level: 一般
+  defect: 有漏水、渗水现象。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.1 本体
+  part: 4.13.1.3 门窗
+  level: 严重
+  defect: 窗户及纱窗严重破损；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.1 本体
+  part: 4.13.1.3 门窗
+  level: 严重
+  defect: 防小动物措施不完善，无防鼠挡板。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.1 本体
+  part: 4.13.1.3 门窗
+  level: 一般
+  defect: 窗户及纱窗明显破损；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.1 本体
+  part: 4.13.1.3 门窗
+  level: 一般
+  defect: 防小动物措施不完善，防鼠挡板不规范。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.2 基础
+  part: 4.13.2.1 内部
+  level: 一般
+  defect: 井内积水浸泡电缆或杂物；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.2 基础
+  part: 4.13.2.1 内部
+  level: 一般
+  defect: 潮湿，墙面有水珠；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.2 基础
+  part: 4.13.2.1 内部
+  level: 一般
+  defect: 墙体裂纹，墙面剥落。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.3 接地系统
+  part: 4.13.3.1 接地引下线
+  level: 危急
+  defect: 严重锈蚀（大于截面直径或厚度30%）;
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.3 接地系统
+  part: 4.13.3.1 接地引下线
+  level: 危急
+  defect: 出现断开、断裂。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.3 接地系统
+  part: 4.13.3.1 接地引下线
+  level: 严重
+  defect: 中度锈蚀（大于截面直径或厚度20%，小于30%）；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.3 接地系统
+  part: 4.13.3.1 接地引下线
+  level: 严重
+  defect: 埋深不足；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.3 接地系统
+  part: 4.13.3.1 接地引下线
+  level: 严重
+  defect: 断开、断裂，连接松动、接地不良；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.3 接地系统
+  part: 4.13.3.1 接地引下线
+  level: 严重
+  defect: 截面不满足要求。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.3 接地系统
+  part: 4.13.3.1 接地引下线
+  level: 一般
+  defect: 轻度锈蚀（小于截面直径或厚度20%）;
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.3 接地系统
+  part: 4.13.3.1 接地引下线
+  level: 一般
+  defect: 无明显接地；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.3 接地系统
+  part: 4.13.3.1 接地引下线
+  level: 一般
+  defect: 接地电阻值不符合设计规定。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.4 通道
+  part: 4.13.4.1 运行通道
+  level: 一般
+  defect: 通道路面不平整；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.4 通道
+  part: 4.13.4.1 运行通道
+  level: 一般
+  defect: 通道内有堆积物。
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.5 辅助设施
+  part: 4.13.5.7 标识
+  level: 一般
+  defect: 设备标识、警示标识安装位置偏移；
+- device_category: 4.12 电缆分支（接）箱缺陷类别
+  component: 4.13.5 辅助设施
+  part: 4.13.5.7 标识
+  level: 一般
+  defect: 无标识或缺少标识。
+- device_category: 4.14 配电自动化终端缺陷类别
+  component: 4.14.1 自动化装置
+  part: ''
+  level: 严重
+  defect: 电压或电流回路故障引起相间短路；
+- device_category: 4.14 配电自动化终端缺陷类别
+  component: 4.14.1 自动化装置
+  part: ''
+  level: 严重
+  defect: 交直流电源异常；
+- device_category: 4.14 配电自动化终端缺陷类别
+  component: 4.14.1 自动化装置
+  part: ''
+  level: 严重
+  defect: 指示灯信号异常；
+- device_category: 4.14 配电自动化终端缺陷类别
+  component: 4.14.1 自动化装置
+  part: ''
+  level: 严重
+  defect: 通信异常，无法上传数据；
+- device_category: 4.14 配电自动化终端缺陷类别
+  component: 4.14.1 自动化装置
+  part: ''
+  level: 严重
+  defect: 装置故障引起遥测、遥信信息异常。
+- device_category: 4.14 配电自动化终端缺陷类别
+  component: 4.14.2 辅助设施
+  part: ''
+  level: 一般
+  defect: 标识不清晰；
+- device_category: 4.14 配电自动化终端缺陷类别
+  component: 4.14.2 辅助设施
+  part: ''
+  level: 一般
+  defect: 电缆进出口未封堵或封堵物脱落；
+- device_category: 4.14 配电自动化终端缺陷类别
+  component: 4.14.2 辅助设施
+  part: ''
+  level: 一般
+  defect: 柜门无法正常关闭；
+- device_category: 4.14 配电自动化终端缺陷类别
+  component: 4.14.2 辅助设施
+  part: ''
+  level: 一般
+  defect: 设备无可靠接地。
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.1 二次回路
+  part: ''
+  level: 危急
+  defect: 开路；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.1 二次回路
+  part: ''
+  level: 危急
+  defect: 短路；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.1 二次回路
+  part: ''
+  level: 危急
+  defect: 断线。
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.1 二次回路
+  part: ''
+  level: 严重
+  defect: 通讯中断；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.1 二次回路
+  part: ''
+  level: 严重
+  defect: 端子排松动、接触不良。
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.2 保护装置
+  part: ''
+  level: 危急
+  defect: 装置黑屏；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.2 保护装置
+  part: ''
+  level: 危急
+  defect: 频繁重启；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.2 保护装置
+  part: ''
+  level: 危急
+  defect: 交直流电源异常。
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.2 保护装置
+  part: ''
+  level: 严重
+  defect: 不能复归；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.2 保护装置
+  part: ''
+  level: 严重
+  defect: 对时不准；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.2 保护装置
+  part: ''
+  level: 严重
+  defect: 操作面板损坏；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.2 保护装置
+  part: ''
+  level: 严重
+  defect: 指示灯信号异常；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.2 保护装置
+  part: ''
+  level: 严重
+  defect: 备自投装置故障；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.2 保护装置
+  part: ''
+  level: 严重
+  defect: 显示异常。
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.2 保护装置
+  part: ''
+  level: 一般
+  defect: 设备无可靠接地；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.2 保护装置
+  part: ''
+  level: 一般
+  defect: 标识不清晰；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.2 保护装置
+  part: ''
+  level: 一般
+  defect: 备自投功能不完善。
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.3 直流装置
+  part: ''
+  level: 严重
+  defect: 交流电源故障、失电；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.3 直流装置
+  part: ''
+  level: 严重
+  defect: 蓄电池容量不足；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.3 直流装置
+  part: ''
+  level: 严重
+  defect: 直流电源箱、直流屏指示灯信号异常；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.3 直流装置
+  part: ''
+  level: 严重
+  defect: 蓄电池鼓肚、渗液；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.3 直流装置
+  part: ''
+  level: 严重
+  defect: 蓄电池电压异常；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.3 直流装置
+  part: ''
+  level: 严重
+  defect: 蓄电池浮充电流异常；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.3 直流装置
+  part: ''
+  level: 严重
+  defect: 10MΩ≤对地绝缘电阻<100MΩ;
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.3 直流装置
+  part: ''
+  level: 严重
+  defect: 充电模块故障；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.3 直流装置
+  part: ''
+  level: 严重
+  defect: 装置黑屏、花屏。
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.3 直流装置
+  part: ''
+  level: 一般
+  defect: 蓄电池桩头有锈蚀现象；
+- device_category: 4.15 二次保护装置缺陷类别
+  component: 4.15.3 直流装置
+  part: ''
+  level: 一般
+  defect: 柜门无法关闭，影响直流系统运行。

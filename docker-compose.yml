@@ -1,0 +1,47 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql+psycopg://app:${PG_PASSWORD:-app}@postgres:5432/gridops
+      DATABASE_URL_READ: postgresql+psycopg://gridops_reader:reader@postgres:5432/gridops
+      DATABASE_URL_WRITE: postgresql+psycopg://gridops_writer:writer@postgres:5432/gridops
+      CHROMA_HOST: chromadb
+      CHROMA_PORT: "8000"
+      REDIS_URL: redis://redis:6379/0
+      JWT_SECRET: ${JWT_SECRET:-change-me}
+    depends_on:
+      - postgres
+      - chromadb
+      - redis
+
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: ${PG_PASSWORD:-app}
+      POSTGRES_DB: gridops
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  chromadb:
+    image: chromadb/chroma:1.5.9
+    ports:
+      - "8001:8000"
+    volumes:
+      - chromadata:/chroma/chroma
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redisdata:/data
+
+volumes:
+  pgdata:
+  chromadata:
+  redisdata:

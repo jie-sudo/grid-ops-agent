@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+.git/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+data/*.csv
+.vscode/
+
+# 生成物 / 缓存（嵌入缓存、临时输出）
+*.npz
+output/
+
+# 内部文档 PDF 不入库
+*.pdf
