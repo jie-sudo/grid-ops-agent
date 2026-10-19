@@ -1,0 +1,50 @@
+/* 全局样式：复用现有 Demo 的配色 token（--accent:#2563eb 等），保持视觉一致 */
+:root {
+  --bg: #f7f8fa;
+  --surface: #fff;
+  --muted: #5d6b7a;
+  --text: #17202a;
+  --border: #d9e0e7;
+  --accent: #2563eb;
+  --success: #16803c;
+  --warning: #b7791f;
+  --danger: #c2410c;
+  --sidebar-bg: #0f2440;
+  --sidebar-hover: #1c3554;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, 'Segoe UI', 'Microsoft YaHei', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+}
+
+/* Ant Design 主题变量对齐 */
+.ant-layout {
+  background: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9d2db;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #aab6c2;
+}
