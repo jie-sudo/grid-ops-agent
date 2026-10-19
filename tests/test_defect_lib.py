@@ -85,9 +85,9 @@ def test_grade_defect_defect_library_fallback():
     from app.engine.rule_engine import RuleEngine
 
     e = RuleEngine()
-    r = e.grade_defect("水泥杆杆身有纵向裂纹")  # 不在关键词里，但缺陷库能匹配到危急
+    r = e.grade_defect("水泥杆杆身有纵向裂纹", use_llm=False)  # 不在关键词里，但缺陷库能匹配到危急
     assert r["level"] == "危急"
     assert r["degraded"] is False
-    # 真正的歧义仍降级
-    r2 = e.grade_defect("水泥杆倾斜度2.5%")
+    # 真正的歧义仍降级（确定性层，LLM 兜底关闭）
+    r2 = e.grade_defect("水泥杆倾斜度2.5%", use_llm=False)
     assert r2["degraded"] is True

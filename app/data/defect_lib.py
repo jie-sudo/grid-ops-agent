@@ -128,3 +128,35 @@ def match_by_bigram(description: str, records: list[dict], threshold: float = 0.
     if len(matched_levels) == 1 and best is not None:
         return best.get("level"), best
     return None, None
+
+
+def recall_topk(description: str, records: list[dict], k: int = 10, device_type: str | None = None):
+    """bigram 召回 top-k（不设 threshold，取覆盖度最高的 k 条），供 LLM 定级参考。
+
+    与 match_by_bigram 的区别：不要求「单一等级命中」，而是把最相似的 k 条记录
+    （含等级 + 分类依据）都返回，让 LLM 从中选最匹配的一条定级。
+    """
+    terms = _cjk_bigrams(description)
+    if not terms:
+        return []
+    filtered = records
+    if device_type:
+        f = [
+            r for r in records
+            if device_type in (
+                (r.get("device_type") or "") + (r.get("device_category") or "")
+                + (r.get("device_kind") or "") + (r.get("component") or "")
+            )
+        ]
+        if f:
+            filtered = f
+    scored = []
+    for rec in filtered:
+        hay = " ".join([
+            rec.get("component", ""), rec.get("part", ""),
+            rec.get("defect", ""), rec.get("basis", ""),
+        ])
+        score = sum(1 for t in terms if t in hay) / len(terms)
+        scored.append((score, rec))
+    scored.sort(key=lambda x: -x[0])
+    return scored[:k]

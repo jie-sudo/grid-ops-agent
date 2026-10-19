@@ -56,6 +56,6 @@ def test_intent_rule_stress(text, want, _cat):
 
 @pytest.mark.parametrize("desc,want,_cat", DEFECT_STRESS)
 def test_defect_stress(desc, want, _cat):
-    r = RuleEngine().grade_defect(desc)
+    r = RuleEngine().grade_defect(desc, use_llm=False)  # 测确定性层，不依赖 LLM 网络
     got = "人工复核" if r["degraded"] else r["level"]
     assert got == want
