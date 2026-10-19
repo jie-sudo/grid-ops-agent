@@ -13,7 +13,8 @@ def test_deadline_mapping():
 
 def test_defect_grading():
     assert engine.grade_defect("轻微异常，暂不影响运行，可列入计划处理")["level"] == "一般"
-    assert engine.grade_defect("温度明显偏高，存在隐患，需尽快安排处理")["level"] == "严重"
+    # 严重级无可靠关键词（宽泛词已收紧，见 defect_level.yaml v1.1），走缺陷库匹配兜底（库内真实样本）
+    assert engine.grade_defect("合成绝缘子伞裙有裂纹")["level"] == "严重"
     assert engine.grade_defect("严重发热，随时可能损坏，须立即处理")["level"] == "危急"
 
 
