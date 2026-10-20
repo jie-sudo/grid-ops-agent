@@ -6,9 +6,9 @@ from app.engine.tool_dispatcher import ToolDispatcher
 
 def test_intent_router_rules():
     r = IntentRouter()
-    assert r.route("帮我出个工单")[0] == "工单生成"
-    assert r.route("这个缺陷是什么等级")[0] == "缺陷分级"
-    assert r.route("这台变压器温度多少")[0] == "状态查询"
+    assert r.route_rules("帮我出个工单")[0] == "工单生成"
+    assert r.route_rules("这个缺陷是什么等级") is None  # 「缺陷」不再是关键词，交 LLM 兜底
+    assert r.route_rules("这台变压器温度多少")[0] == "状态查询"
 
 
 def test_dispatcher_execute():

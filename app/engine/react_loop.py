@@ -18,8 +18,8 @@ from app.engine.tool_dispatcher import ToolDispatcher
 from app.engine.tracer import Tracer
 
 DEVICE_ID_RE = re.compile(r"DEV\d+")
-# 这些意图通常明确针对具体设备，缺设备编号时反问（缺陷分级/告警分析可能问标准，交给 LLM clarify）
-NEEDS_DEVICE_INTENTS = {"状态查询", "故障诊断"}
+# 这些意图通常明确针对具体设备，缺设备编号时反问（异常处置内的定级/告警可能不针对具体设备，交给 LLM clarify）
+NEEDS_DEVICE_INTENTS = {"状态查询"}
 
 SYSTEM_PROMPT = """你是电网智能运维助手。诊断、缺陷分级、告警判定、量测查询必须调用工具，不得自己编造数值。
 
@@ -44,9 +44,7 @@ SYSTEM_PROMPT = """你是电网智能运维助手。诊断、缺陷分级、告�
 INTENT_HINTS = {
     "工单生成": "用户要出工单。等级判定优先级：① 原文已明说等级（一般/严重/危急）→ 直接调 create_workorder_draft 出草稿；② 症状指向设备量测（温度/电流/局放等）→ 调 query_state 拿该设备四态评价与数值依据，据此定级；③ 定性描述（闪络/爬电/烧毁等）→ 调 grade_defect；④ 仍定不出 → 反问用户等级。不要同时调 query_device/query_measurements/query_alarms 等多个查询工具。",
     "状态查询": "直接调 query_state 或 query_device 查询指定设备，不要反复调用量测/告警。",
-    "缺陷分级": "直接调 grade_defect 对用户给的缺陷描述定级，不要先查设备/量测。",
-    "告警分析": "调 query_alarms / alarm_level 分析告警；信息不足就反问，不要大范围查量测。",
-    "故障诊断": "调 diagnose 或 query_state 做确定性诊断；缺设备编号先反问。",
+    "异常处置": "设备出了异常，先判断用户给的是什么：有告警信号 → 调 query_alarms / alarm_level；有缺陷描述要定级 → 调 grade_defect；要查原因 → 调 diagnose 或 query_state。缺设备编号先反问，不要大范围查量测。",
     "问答": "先调 retrieve_knowledge 检索知识库，答案附出处。",
 }
 
@@ -96,7 +94,7 @@ class AgentLoop:
 
         # 反问①：意图低置信
         if confidence < 0.6:
-            q = "抱歉，我不太确定您的意图。您是想查询、诊断、告警分析还是出工单？"
+            q = "抱歉，我不太确定您的意图。您是想查询设备、分析异常还是出工单？"
             emit("clarify", question=q)
             return self._clarify(session_id, q)
 

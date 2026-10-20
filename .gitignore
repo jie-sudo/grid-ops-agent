@@ -19,3 +19,7 @@ output/
 
 # 内部文档 PDF 不入库
 *.pdf
+
+# 评测中间产物（可重新生成）
+eval/intent_review_input.md
+eval/qa_closed_intent_review.md
